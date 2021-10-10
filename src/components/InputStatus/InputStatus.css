@@ -1,0 +1,198 @@
+.status_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*START MESSAGE BOX */
+
+.status_wrapper .message_box {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    box-shadow: 0px 5px 7px -7px rgb(0 0 0 / 75%);
+    border-radius: 15px;
+    background-color: white;
+}
+
+    .message_box .message_box-top {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #eff2f5;
+        padding: 15px;
+
+    }
+
+    .ava_img {
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+    }
+
+    .message_box .input_message {
+        flex: 1;
+        outline-width: 0;
+        border: none;
+        padding: 15px 20px;
+        margin: 0 10px;
+        border-radius: 999px;
+        background-color: #eff2f5;
+        font-size: 17px;
+    }
+
+    .message_box .message_box-bot {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .message_box-bot .message_box-bot-option {
+        display: flex;
+        align-items: center;
+        padding: 8px;
+        color: gray;
+        margin: 5px;
+        font-size: 15px;
+    }
+
+    .message_box-bot .message_box-bot-option:hover {
+        cursor: pointer;
+        background-color: #eff2f5;
+        border-radius: 20px;
+    }
+
+    .message_box-bot-option .video_icon {
+        color: red;
+        margin-right: 8px;
+        font-size: 20px;
+    }
+
+    .message_box-bot-option .photo-video_icon {
+        color: green;
+        margin-right: 8px;
+        font-size: 20px;
+
+    }
+
+    .message_box-bot-option .emoji_icon {
+        color: orange;
+        margin-right: 8px;
+        font-size: 20px;
+    }
+
+
+/*END MESSAGE BOX */
+
+
+.status_wrapper .post {
+    width: 100%;
+    height: auto;
+    margin-top: 24px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0px 5px 7px -7px rgb(0 0 0 / 75%)
+}
+
+    .post .post_top {
+        display: flex;
+        align-items: center;
+        padding: 16px;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .post_top .post_top-heading {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .post_top-heading .post_top-info {
+        margin-left: 10px;
+    }
+
+    .post_top-heading .post_top-info p{
+        font-size: 13px;
+        color: gray;
+    }
+
+    .post_top .status_option {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        color: gray;
+        font-size: 22px;
+        margin-right: 8px;
+        position: relative;
+    }
+
+    .post_top .status_option:hover {
+        border-radius: 50%;
+        background-color: rgb(216,218,223);
+    }
+
+    .post_top .status_option .post_options {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 16px;
+        width: 200px;
+        background-color: #fff;
+        border: 1px solid lightgray;
+        
+    }
+
+
+    /* POST MID */
+    .post .post_mid {
+    }
+
+    .post_mid .post_message {
+        padding: 16px;
+        padding-top: 0;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .post_mid .post_img .status_image{
+        width: 100%;
+    }
+
+    /* POST BOT */
+    .post .post_bot {
+       
+    }
+
+    .post_bot .post_bot-listOptions {
+        display: flex;
+        border-top: 1px solid lightgray;
+        justify-content: space-evenly;
+        color : gray;
+        cursor: pointer;
+        padding: 8px 15px 8px 15px;
+    }
+
+    .post_bot-listOptions .post_bot-option {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 8px;
+        flex: 1;
+        font-size: 18px;
+    }
+
+    .post_bot-listOptions .post_bot-option i{
+        padding-right: 8px;
+    }
+
+    .post_bot-listOptions .post_bot-option:hover {
+        border-radius: 10px;
+        background-color: rgb(216,218,223);
+    }
